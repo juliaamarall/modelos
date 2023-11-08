@@ -1,0 +1,43 @@
+INICIO DO HTML DA TABLE
+<table class="table table-striped">
+<thead>
+<th scope="col">Aspectos</th>
+<th scope="col">Presencial</th>
+<th scope="col">Híbrido</th>
+<th scope="col">Virtual</th>
+</tr>
+</thead>
+<tbody class="tBody">
+<tr>
+<td data-th="Aspectos">Fator de atração</td>
+ <td data-th="Presencial">Atraem público para um único local e para o networking. </td>
+<td data-th="Híbrido">Também converge todos para um mesmo local. No virtual, a atração principal é o conteúdo e a dinâmica dos encontros presenciais. </td>
+ <td data-th="Virtual">O que atrai é o conteúdo e a facilidade de acesso. Flexibilidade de tempo. Não há necessidade de deslocamento. </td>
+</tr>     
+</table>
+FIM DO HTML DA TABLE
+
+CSS DA TABLE
+
+@media (max-width: 767px) {
+    thead{
+        display: none;
+    } 
+
+     td{
+        display: block !important;
+        gap: .5rem;
+    }
+
+    td::before{
+        content: attr(data-th) ": ";
+        font-weight: bold;
+    }
+
+    iframe{
+        width: 100%;
+    }
+    
+}
+
+FIM DO CSS DA TABLE
