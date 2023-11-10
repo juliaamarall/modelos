@@ -1,0 +1,13 @@
+ <p>
+            <button class="btn btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+               <span class="font-teste"> LER MAIS <i class="fa-regular fa-hand-pointer fa-fade"></i> </span>
+            </button>
+          </p>
+          <div style="min-height: 120px;">
+            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+              <div class="card card-body" style="width: 800px;">
+                This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab inventore nihil magni, sed aspernatur labore error asperiores ipsa. Necessitatibus asperiores deleniti perspiciatis aliquid corporis error explicabo non dolore ex tempora? Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio recusandae placeat ducimus. Omnis itaque sit, magnam repellat odio in hic eveniet aut rem alias? Animi soluta deleniti eveniet quas dignissimos! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi cum eum minus sit tenetur vel saepe facilis deleniti repellendus iusto debitis corporis sed voluptate amet ipsam officiis facere, similique alias!
+              </div>
+            </div>
+          </div>
+    </div>
