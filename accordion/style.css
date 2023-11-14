@@ -1,0 +1,18 @@
+.accordion-body {
+    background-color: rgb(240, 238, 238);
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10px;
+  
+    
+}
+
+
+.accordion-button {
+    background-color: #e5e7e7;
+    --bs-accordion-active-bg: #10ac44;
+    --bs-accordion-btn-icon-bg: var(--white);
+}
+
